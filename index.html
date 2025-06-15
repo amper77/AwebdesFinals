@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Portfolio - WELLEZA AMPER</title>
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<header>
+    <nav class="container" aria-label="Primary navigation">
+    <div class="logo" tabindex="0">WELLEZA AMPER</div>
+    <div class="nav-links" role="navigation">
+        <a href="#home" >HOME</a>
+        <a href="#about" >ABOUT</a>
+        <a href="#projects" >PROJECTS</a>
+        <a href="#certification">CERTIFICATIONS</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#resume">RESUME</a>
+        <a href="#blog" >BLOG</a>
+        <a href="#contact">CONTACT</a>
+    </div>
+    </nav>
+</header>
+<main>
+    
+    <section id="home" aria-label="Home section">
+    <div class="container">
+        <img src="/ProfilePicture.jpg" alt="Profile Picture"> 
+        <h1>Hi!, I'm Welleza Amper Welcome to my Personal Website Portfolio😊</h1>
+        <h2>Professional developer crafting clean and modern web experiences tailored to your needs.</h2>
+    </div>
+    </section>
+
+    <section id="about" aria-label="About me section">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>"I'm a web developer with a background in design and a love for turning ideas into interactive experiences. Skilled in HTML, CSS, JavaScript, and React. I’m also a strong communicator."</p>
+    </div>
+    </section>
+
+    <section id="projects" aria-label="Projects section">
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+
+<article class="project-card" aria-label="Project Survey Form">
+    <h3 class="project-title">Survey Form</h3>
+    <p class="project-desc"> A responsive survey form built with HTML and CSS, designed to collect user feedback with accessible and user-friendly form elements
+    </p>
+    <a href="https://github.com/amper77/Survey-Form.git"  class="project-link"  aria-label="Visit Portfolio website project">View Project</a>
+</article>
+    
+<article class="project-card" aria-label="Project Tribute Page">
+    <h3 class="project-title">Tribute Page</h3>
+    <p class="project-desc">
+        A tribute page dedicated to Dr. Norman Borlaug, highlighting their life, achievements, and legacy. Built using HTML and CSS with a responsive design and clean layout.</p>
+        <a href="https://github.com/amper77/Survey-Form.git"  class="project-link"  aria-label="Visit Portfolio website project">View Project</a>
+</article>
+
+<article class="project-card" aria-label="Project Portfolio website">
+    <h3 class="project-title">Portfolio Website</h3>
+    <p class="project-desc">This portfolio website showcasing projects, skills, and  built with
+    modern web standards and best practices.</p>
+    <a href="https://github.com/amper77/WEBSITE-PORTFOLIO.git" class="project-link"  aria-label="Visit Portfolio website project">View Project</a>
+    
+</article>
+</div>
+</div>
+</section>
+
+
+<section id="certification">
+    <h2>MY CERTIFICATES</h2>
+    <img src="/download.jpg" alt="picture1">
+    <img src="/download.png" alt="picture2">
+
+
+<section id="skills" aria-label="Skills section">
+<div class="container">
+    <h2>Skills</h2>
+    <div class="skills-list" role="list">
+    <div class="skill-item" role="listitem">
+        <span>React <strong class="percent">85%</strong></span>
+        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+    </div>
+    <div class="skill-item" role="listitem">
+        <span>Front End Development <strong class="percent">85%</strong></span>
+        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+    </div>
+    <div class="skill-item" role="listitem">
+        <span>JavaScript <strong class="percent">90%</strong></span>
+        <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+    </div>
+    <div class="skill-item" role="listitem">
+        <span>HTML <strong class="percent">90%</strong></span>
+        <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+    </div>
+    <div class="skill-item" role="listitem">
+        <span>CSS <strong class="percent">90%</strong></span>
+        <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+    </div>
+    </div>
+</div>
+</section>
+
+
+
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <p>Download my complete resume to learn more about my experience and qualifications.</p>
+                <a href="MyResume.pdf" class="btn btn-primary" onclick="downloadResume()">
+                    <i class="fas fa-download"></i> Download Resume (PDF)
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="blog" aria-label="Blog section">
+    <div class="container">
+        <h2>Blog</h2>
+        <div class="blog-list">
+
+        <article class="blog-post" aria-label="Blog post Build Modern Web Apps">
+            <h3 class="blog-title">Build Modern Web Apps with React</h3>
+            <p class="blog-excerpt">Discover the latest techniques for creating efficient and scalable React
+            applications using hooks, context, and concurrent mode.</p>
+            <a href="#" class="blog-read-more"
+            aria-label="Read more about Build Modern Web Apps with React">Read More →</a>
+        </article>
+
+        <article class="blog-post" aria-label="Blog post CSS Grid Layout Techniques">
+            <h3 class="blog-title">CSS Grid Layout Techniques</h3>
+            <p class="blog-excerpt">A comprehensive guide to mastering CSS Grid layout for responsive and flexible web
+            design.</p>
+            <a href="#" class="blog-read-more" aria-label="Read more about CSS Grid Layout Techniques">Read
+            More →</a>
+        </article>
+
+        <article  class="blog-post" aria-label="Blog post JavaScript Performance Tips">
+            <h3 class="blog-title">JavaScript Performance Tips</h3>
+            <p class="blog-excerpt">Improve your JavaScript code's speed and efficiency with these expert tips and
+            common pitfalls to avoid.</p>
+            <a href="#" class="blog-read-more" 
+            aria-label="Read more about JavaScript Performance Tips">Read More →</a>
+        </article>
+
+        </div>
+    </div>
+    </section>
+
+    <section id="contact">
+    <h2>CONTACT ME</h2>
+    <form id="contactForm" action="https://formsubmit.co/waamper.student@asiancollege.edu.ph" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+
+    <button type="submit">Send</button>
+    </form>
+</section>
+</main>
+<footer>
+    <main class="container" role="main" aria-label="Social media links">
+    <a href="https://www.facebook.com/amperwelleza77" target="_blank" rel="noopener" class="social-link facebook" aria-label="Visit Facebook">
+    <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" >
+        <path d="M22.675 0h-21.35C.597 0 0 .597 0 1.333v21.334C0 23.403.597 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.894-4.788 4.662-4.788 1.325 0 2.463.099 2.797.143v3.24l-1.92.001c-1.506 0-1.797.718-1.797 1.767v2.317h3.59l-.467 3.622h-3.123V24h6.116C23.403 24 24 23.403 24 22.667V1.333C24 .597 23.403 0 22.675 0z"/>
+    </svg>
+    </a>
+    <a href="https://www.instagram.com" target="_blank" rel="noopener" class="social-link instagram" aria-label="Visit Instagram">
+    <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" >
+        <linearGradient id="instGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop stop-color="#f09433" offset="0%"/>
+        <stop stop-color="#e6683c" offset="25%"/>
+        <stop stop-color="#dc2743" offset="50%"/>
+        <stop stop-color="#cc2366" offset="75%"/>
+        <stop stop-color="#bc1888" offset="100%"/>
+        </linearGradient>
+        <path fill="url(#instGradient)" d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zM12 7.125a4.875 4.875 0 100 9.75 4.875 4.875 0 000-9.75zM18.25 7.375a1.125 1.125 0 11-2.25 0 1.125 1.125 0 012.25 0z"/>
+        <circle fill="white" cx="12" cy="12" r="3.375"/>
+    </svg>
+    </a>
+    <a href="https://www.twitter.com" target="_blank" rel="noopener" class="social-link twitter" aria-label="Visit Twitter">
+    <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" >
+        <path d="M23.954 4.569a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.724 9.983 9.983 0 01-3.127 1.195 4.93 4.93 0 00-8.396 4.49A13.997 13.997 0 011.671 3.149a4.93 4.93 0 001.523 6.575 4.902 4.902 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.996 4.996 0 01-2.224.084 4.947 4.947 0 004.6 3.417 9.879 9.879 0 01-6.116 2.107c-.394 0-.779-.023-1.17-.067a13.94 13.94 0 007.557 2.209c9.054 0 14.002-7.496 14.002-13.985 0-.21-.005-.423-.015-.633a9.936 9.936 0 002.46-2.548l-.047-.02z"/>
+    </svg>
+    </a>
+</main>
+    <h1>© 2025 WELLEZA AMPER. All rights reserved.</h1>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
