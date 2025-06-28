@@ -6,6 +6,18 @@
 <title>Portfolio - WELLEZA AMPER</title>
 <link rel="stylesheet" href="./style.css" />
 </head>
+    <div id="login-container">
+  <form id="login-form">
+    <h2>Login</h2>
+    <label for="username">Username</label>
+    <input type="text" id="username" required />
+    <label for="password">Password</label>
+    <input type="password" id="password" required />
+    <button type="submit">Login</button>
+    <p id="login-message"></p>
+  </form>
+</div>
+    <div id="main-content" style="display:none">
 <body>
 <header>
     <nav class="container" aria-label="Primary navigation">
@@ -19,7 +31,8 @@
         <a href="#resume">RESUME</a>
         <a href="#blog" >BLOG</a>
         <a href="#contact">CONTACT</a>
-    </div>
+        <button id="logout-btn" style="display:none;">Logout</button>
+    </div> 
     </nav>
 </header>
 <main>
