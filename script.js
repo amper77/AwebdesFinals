@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', function () {
   const mainContent = document.getElementById('main-content');
   const loginMessage = document.getElementById('login-message');
 
-  const USER = 'admin';
-  const PASS = '1234';
+  const USER = 'ADMIN';
+  const PASS = '030721';
 
   loginForm.addEventListener('submit', function (e) {
     e.preventDefault();
